@@ -20,11 +20,12 @@ Welcome to the Hackathon on **AI for Resilience against Extreme Weather Events**
 In this challenge, you will use **open-source weather and climate data from MeteoSwiss** to build AI-powered solutions that help society become more resilient against **extreme weather events in Switzerland**.  
 
 Your solutions might include:
-- **Innovative Parametric Solutions** (trigger-based payouts using weather indices)  
-- **Intelligent Disaster Response Systems** (e.g., optimizing resource allocation or damage assessment)  
-- **Early Warning Systems** (e.g., severe storm / flood alerts)  
+- **Innovative Parametric Insurance Solutions**: Design and prototype a parametric insurance model with innovative trigger mechanism based on real-time environmental data (e.g. extreme temperature index). Simulate payout scenarios based on historical or synthetically created datasets. The payout does not need to be financial - think of what would bring instant relief to society, e.g. during a heatwave! 
+- **AI-Powered Early Warning Systems**: Thinking of individuals living or travelling through Switzerland, design and prototype an AI-powered application enabling to better apprehend selected risks (e.g., landslides or glacier collapses) and issuing warnings or relevant mitigation recommendations based on the user location. The AI model should be able to leverage multimodal data ranging from weather to topological data and assume the user's location as known. 
+- **Intelligent Disaster Response Systems** Prototype a platform for real-time disaster coordination with integration of open source exposure data and optimized resource allocation in case of a disaster. Conduct damage assessment of natural hazards (e.g., floods, hail, windstorms, precipitation) on properties from street view or satellite imagery. The tool should help identify where the most significant losses/damage might occur. For example, in areas with high concentration of rooftop solar panels, older and more vulnerable buildings, or other exposure characteristics that increase susceptibility to damage.   
 
-To get started, you will need weather and climate data.  
+
+To get started, you will need open source weather and climate data.  
 
 ---
 
@@ -60,6 +61,3 @@ Key features:
 - Data available in **JSON, CSV, and XML**  
 - Includes observations, forecasts, and gridded datasets
 
-#### Example: Fetch station metadata
-```bash
-curl https://data.geo.admin.ch/ch.meteoschweiz.messnetz-parameter/KLIB.csv
