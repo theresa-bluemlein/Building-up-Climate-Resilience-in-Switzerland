@@ -1,4 +1,4 @@
-# Data for the Challenge "Building-up resilience against extreme weather events in Switzerland"
+# Welcome to the challenge on "Building-up resilience against extreme weather events in Switzerland" by Swiss Re
 This respository is part of the Zurich hackathon of [Swiss {ai} Week](https://swiss-ai-weeks.ch/) happening on 26/27 September 2025.
 
 By accessing or using the data provided, you agree to the following terms and conditions.
