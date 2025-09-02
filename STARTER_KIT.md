@@ -33,6 +33,10 @@ The table below provides examples of how selected hazards can affect these areas
 | **Drought**             | Water shortage                           | Property & infrastructure damage from subsidence depending on the soil conditions | Crop loss, forest dieback                   |
 | **Heat wave**           | Health issues                            | Power grid failures, potentially affecting other infrastructures                | Crop loss, forest dieback                   |
 
+### Useful References
+- [GMD - CLIMADA v1](https://gmd.copernicus.org/articles/12/3085/2019/): a global weather and climate risk assessment platform 
+- [GitHub - CLIMADA-project](https://github.com/CLIMADA-project/climada_python): CLIMADA is a free and open-source software framework for climate risk assessment and adaptation option appraisal. 
+- [Harnessing Large Language Models for Disaster Management: A Survey](https://arxiv.org/html/2501.06932v1)
 
 ## 📊 Data Sources
 In this challenge, you will use **open-source weather, climate and topological data** to build AI-powered solutions that help the Swiss society become more resilient against **extreme weather events in Switzerland**.  
@@ -77,6 +81,30 @@ TODO: Link, Access
 - [Thurgau](https://data.tg.ch/explore)
 - [Zürich](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/)
 - [Zürich ](https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html) – Web application providing a comprehensive set of indicators which can be exported to various formats.
+
+## Guide to Approach the Challenge
+To help you structure your work during the hackathon, we suggest the following four steps. These are not mandatory but can serve as a practical guide to move efficiently from problem statement to solution and pitch within the sprint timeframe. 
+
+ 
+**1. Scope the Problem**
+Identify the hazard–exposure intersection you want to address. 
+Clarify the type of threat, the potential loss or impact, and the geographic focus. 
+Bring in your own observations, domain expertise, and lived experience to sharpen the problem framing. 
+
+**2. Design Your Solution**
+Define who your persona is (e.g., municipality, household, insurer, hiker) and how they would use the product. 
+Consider the role of AI and data: what sources are available, what’s feasible in 36 hours, and what’s innovative. 
+Sketch a mock-up or conceptual design of your solution to make it tangible. 
+
+**3. Prototype**
+Build a working model using real or synthetic datasets. 
+Perform basic validation to ensure plausibility. 
+Make your assumptions explicit (e.g., thresholds, triggers, coverage). 
+Implement a simple dashboard, app, or platform to demonstrate functionality. 
+
+**4. Prepare the Pitch and Submission**
+Summarize your work in a clear slide deck. 
+Use storytelling to explain the problem, solution, and societal impact. 
 
 ---
 By accessing or using the data provided, you agree to the following terms and conditions.
