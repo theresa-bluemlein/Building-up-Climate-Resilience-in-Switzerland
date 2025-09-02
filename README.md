@@ -21,7 +21,7 @@ Your solutions might include:
 Swiss communities face a wide range of natural hazards, each with different impacts on people and health, property, and agriculture.  
 
 ### Hazard / Exposure mapping (risk scenarios) 
-The table below provides examples of how selected hazards can affect these areas of exposure. While not exhaustive, it illustrates the variety of risks and consequences across lines of business. To make your solution both relevant and feasible, we recommend focusing on one specific hazard-exposure intersection which represents a concrete risk scenario, for instance, floods × property damage or hail × agriculture. 
+The table below provides examples of how selected hazards can affect these areas of exposure. While not exhaustive, it illustrates the variety of risks and consequences across lines of business. To make your solution both relevant and feasible, we recommend focusing on one specific hazard-exposure intersection which represents a concrete risk scenario, e.g., floods × property damage or hail × agriculture. 
 
 | Hazards ↓ / Exposures → | People & Health                          | Property damage                                                                 | Agriculture                                |
 |--------------------------|------------------------------------------|---------------------------------------------------------------------------------|--------------------------------------------|
@@ -39,23 +39,24 @@ The table below provides examples of how selected hazards can affect these areas
 - [Harnessing Large Language Models for Disaster Management: A Survey](https://arxiv.org/html/2501.06932v1)
 
 ## 📊 Data Sources
-In this challenge, you will use **open-source weather, climate and topological data** to build AI-powered solutions that help the Swiss society become more resilient against **extreme weather events in Switzerland**.  
+In this challenge, you will use open-source hazard and exposure data to build AI-powered solutions that help the Swiss society become more resilient against extreme weather events in Switzerland.  
 ### Hazard Data
-#### MeteoSwiss: 1. Download Manually (No Coding Required)
+#### Weather Data: MeteoSwiss
+- MeteoSwiss (manual download) via the [MeteoSwiss Data Download Portal](https://www.meteoswiss.admin.ch/services-and-publications/applications/ext/download-data-without-coding-skills.htm). You can select different meteorological parameters (temperature, precipitation, sunshine, wind, etc.), choose a station and timeframe, export the data directly. We added a few sample CSVs in this repository (`/data` folder) so you can quickly test your pipelines.
+- MeteoSwiss (API access), access documented in the [MeteoSwiss Opendata GitHub](https://github.com/MeteoSwiss/publication-opendata). Key features: REST-like API, Data available in JSON, CSV, and XML; includes observations, forecasts, and gridded datasets
 
-MeteoSwiss provides an easy interface for downloading datasets from the [MeteoSwiss Data Download Portal](https://www.meteoswiss.admin.ch/services-and-publications/applications/ext/download-data-without-coding-skills.htm). You can select different meteorological parameters (temperature, precipitation, sunshine, wind, etc.), choose a station and timeframe, export the data directly. We’ve also added a **few sample CSVs** in this repository (`/data` folder) so you can quickly test your pipelines.
+#### Earthquake Data: Swiss Seismological Service (SED)
+The [SED's seismic network](http://www.seismo.ethz.ch/en/knowledge/earthquake-data-and-analysis-tools/waveform-data/) records continuous wave-form data in real-time from over 200 permanent stations in Switzerland and an additional approximately 50 permanent stations in neighbouring regions, as well as from temporary stations set up for various projects. Access of waveform data is possible via [EIDA](https://www.orfeus-eu.org/data/eida/index.html).
 
-#### MeteoSwiss: 2. Access via API (Programmatic Access)
-For automated workflows and larger projects, you can fetch data using the **MeteoSwiss Opendata API**. 📖 Documentation: [MeteoSwiss Opendata GitHub](https://github.com/MeteoSwiss/publication-opendata). Key features: REST-like API, Data available in **JSON, CSV, and XML**, includes observations, forecasts, and gridded datasets
+#### Flood Data: Federal Office for the Environment (FOEN)
+The FOEN surveys a number of parameters on Swiss rivers, lakes and groundwater. 
+The hydrological data from the FOEN monitoring stations are accessible via the federal government's Linked Data Service [LINDAS](https://lindas.admin.ch/?lang=en). The [data](https://environment.ld.admin.ch/.well-known/void/dataset/hydro#https://environment.ld.admin.ch/.well-known/void/dataset/hydro) on discharge, water level, temperature and flood danger levels are updated every 10 minutes.
 
-#### Swiss Seismological Service
-TODO: Link, Access
+#### Glacier & Snow Data
+The  Glacier Monitoring in Switzerland ([GLAMOS](https://www.glamos.ch/en/)) systematically documents and monitors long-term [glacier changes](https://www.glamos.ch/en/downloads#inventories/A55f-03) in the Swiss Alps. 
 
-#### FOEN (Hydrology)
-TODO: Link, Access
+The  Institute of Snow and Avalanche Research ([SLF](https://www.slf.ch/en/)) operates an extensive network of manual measuring sites. At their sites, which are distributed throughout the Swiss Alps, they for example measure data on snow depth and 24-hour new snow. You can download data older than 7 days manually using the [file download](https://measurement-data.slf.ch/) or you download live data using their [API](https://measurement-api.slf.ch/). 
 
-#### Glacier & Snow
-TODO: Link, Access
 
 ### Exposure Data
 #### National data portals
