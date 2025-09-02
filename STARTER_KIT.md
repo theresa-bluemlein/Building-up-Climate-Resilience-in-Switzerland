@@ -87,24 +87,24 @@ To help you structure your work during the hackathon, we suggest the following f
 
  
 **1. Scope the Problem**
-Identify the hazard–exposure intersection you want to address. 
-Clarify the type of threat, the potential loss or impact, and the geographic focus. 
-Bring in your own observations, domain expertise, and lived experience to sharpen the problem framing. 
+- Identify the hazard–exposure intersection you want to address. 
+- Clarify the type of threat, the potential loss or impact, and the geographic focus. 
+- Bring in your own observations, domain expertise, and lived experience to sharpen the problem framing. 
 
 **2. Design Your Solution**
-Define who your persona is (e.g., municipality, household, insurer, hiker) and how they would use the product. 
-Consider the role of AI and data: what sources are available, what’s feasible in 36 hours, and what’s innovative. 
-Sketch a mock-up or conceptual design of your solution to make it tangible. 
+- Define who your persona is (e.g., municipality, household, insurer, hiker) and how they would use the product. 
+- Consider the role of AI and data: what sources are available, what’s feasible in 36 hours, and what’s innovative. 
+- Sketch a mock-up or conceptual design of your solution to make it tangible. 
 
 **3. Prototype**
-Build a working model using real or synthetic datasets. 
-Perform basic validation to ensure plausibility. 
-Make your assumptions explicit (e.g., thresholds, triggers, coverage). 
-Implement a simple dashboard, app, or platform to demonstrate functionality. 
+- Build a working model using real or synthetic datasets. 
+- Perform basic validation to ensure plausibility. 
+- Make your assumptions explicit (e.g., thresholds, triggers, coverage). 
+- Implement a simple dashboard, app, or platform to demonstrate functionality. 
 
 **4. Prepare the Pitch and Submission**
-Summarize your work in a clear slide deck. 
-Use storytelling to explain the problem, solution, and societal impact. 
+- Summarize your work in a clear slide deck. 
+- Use storytelling to explain the problem, solution, and societal impact. 
 
 ---
 By accessing or using the data provided, you agree to the following terms and conditions.
