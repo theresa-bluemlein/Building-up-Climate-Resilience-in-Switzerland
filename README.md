@@ -17,7 +17,7 @@ The data of this respository has been provided by [Swiss Re](https://www.swissre
 
 # Hackathon – Open Data Access
 Welcome to the Hackathon on **AI for Resilience against Extreme Weather Events**!  
-In this challenge, you will use **open-source weather and climate data from MeteoSwiss** to build AI-powered solutions that help society become more resilient against **extreme weather events in Switzerland**.  
+In this challenge, you will use **open-source weather, climate and topological data** to build AI-powered solutions that help the Swiss society become more resilient against **extreme weather events in Switzerland**.  
 
 Your solutions might include:
 - **Innovative Parametric Insurance Solutions**: Design and prototype a parametric insurance model with innovative trigger mechanism based on real-time environmental data (e.g. extreme temperature index). Simulate payout scenarios based on historical or synthetically created datasets. The payout does not need to be financial - think of what would bring instant relief to society, e.g. during a heatwave! 
