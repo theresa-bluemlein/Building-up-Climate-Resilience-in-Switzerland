@@ -1,7 +1,7 @@
 # Welcome to "AI for Resilience against Extreme Weather Events" by Swiss Re
 This respository is part of the Zurich hackathon of [Swiss {ai} Week](https://swiss-ai-weeks.ch/) happening on 26/27 September 2025.
 
-## Introdution
+## Introduction
 The recent tragedy of glacier collapse in Blatten and the increasing summer heatwaves underscore the vulnerabilities in the Swiss Alps. In this evolving risk landscape, the reinsurance industry plays a crucial role in helping societies understand and manage the financial impact of natural disasters such as landslides, floods, and heatwaves.  
 
 AI-driven technologies open up new opportunities for the (re)insurance industry to take societal responsibility in responding to natural catastrophes. With this hackathon, Swiss Re aims to explore innovative ways to turn these opportunities into concrete solutions that enhance resilience and create tangible benefits for society. 
