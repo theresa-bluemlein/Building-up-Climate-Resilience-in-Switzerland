@@ -31,12 +31,8 @@ To get started, you will need open source weather and climate data.
 
 ## 📊 Data Sources
 
-We will use the **official MeteoSwiss open data**.  
-You have two main options to access it:
-
----
-
-### 1. Download Manually (No Coding Required)
+### MeteoSwiss Data
+#### 1. Download Manually (No Coding Required)
 
 MeteoSwiss provides an easy interface for downloading datasets in **CSV** or **TXT** format:
 
@@ -51,7 +47,7 @@ We’ve also added a **few sample CSVs** in this repository (`/data` folder) so 
 
 ---
 
-### 2. Access via API (Programmatic Access)
+#### 2. Access via API (Programmatic Access)
 
 For automated workflows and larger projects, you can fetch data using the **MeteoSwiss Opendata API**.
 📖 Documentation: [MeteoSwiss Opendata GitHub](https://github.com/MeteoSwiss/publication-opendata)
@@ -60,4 +56,29 @@ Key features:
 - REST-like API  
 - Data available in **JSON, CSV, and XML**  
 - Includes observations, forecasts, and gridded datasets
+
+### National data portals
+- [Open Street Map](https://www.openstreetmap.org/#map=9/47.000/8.000) with [osm](https://www.osm.ch/entwickler.html) as dataset limited to Switzerland
+- [swissBUILDINGS3D (swisstopo)](https://www.osm.ch/entwickler.html) - Data access described in this [document](https://backend.swisstopo.admin.ch/fileservice/sdweb-docs-prod-swisstopoch-files/files/2023/11/14/82d88341-a54c-4504-9055-f60002a609c4.pdf)
+- [opendata.swiss](https://opendata.swiss/de) - Data catalog of Swiss Open Government Data, operated by the Federal Statistical Office (BFS)
+- [BFS Data Portal](https://data.bfs.admin.ch/) - Data catalog of the Federal Statistical Office (BFS)
+- [BFS STAT-TAB](https://www.pxweb.bfs.admin.ch/pxweb/en/) - Interactive database of the Federal Statistical Office (BFS)
+- [I14Y - Metadata catalog of Switzerland.](https://www.i14y.admin.ch/en/home) - The I14Y interoperability platform is Switzerland’s national data catalogue.It contains an overview of the data collections and interfaces of the Confederation, cantons and communes.
+- [BFS Registers](https://www.bfs.admin.ch/bfs/en/home/registers.html) - Official Swiss Enterprise Register, Population Register and Federal Register of Buildings and Dwellings.
+- [SBB](https://opentransportdata.swiss/en/) - Open transport data provided by SBB.
+- [Swiss Tourism Data](https://www.tourismdata.ch/) - Open portal of the National Data Infrastructure for Tourism (NaDIT)
+- [Swisscom](https://data.swisscom.com/explore/) 
+
+
+### Cantonal data portals
+- [Aargau](https://www.ag.ch/de/themen/datenportal#/)
+- [Basel Stadt](https://data.bs.ch/explore/)
+- [Basel Land](https://data.bl.ch/explore/)
+- [Fribourg / Freiburg](https://opendata.fr.ch/pages/home/)
+- [Luzern](https://www.lustat.ch)
+- [Schwyz](https://data.sz.ch/explore/)
+- [St. Gallen](https://daten.sg.ch/explore/) - Cantonal open data portal.
+- [Thurgau](https://data.tg.ch/explore)
+- [Zürich](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/)
+- [Zürich ](https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html) – Web application providing a comprehensive set of indicators which can be exported to various formats.
 
