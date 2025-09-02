@@ -38,7 +38,7 @@ The table below provides examples of how selected hazards can affect these areas
 - [GitHub - CLIMADA-project](https://github.com/CLIMADA-project/climada_python): CLIMADA is a free and open-source software framework for climate risk assessment and adaptation option appraisal. 
 - [Harnessing Large Language Models for Disaster Management: A Survey](https://arxiv.org/html/2501.06932v1)
 
-## 📊 Data Sources
+## Data Sources
 In this challenge, you will use open-source hazard and exposure data to build AI-powered solutions that help the Swiss society become more resilient against extreme weather events in Switzerland.  
 ### Hazard Data
 #### Weather Data: MeteoSwiss
