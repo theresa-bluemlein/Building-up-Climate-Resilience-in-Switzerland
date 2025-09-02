@@ -25,37 +25,15 @@ Your solutions might include:
 - **Intelligent Disaster Response Systems** Prototype a platform for real-time disaster coordination with integration of open source exposure data and optimized resource allocation in case of a disaster. Conduct damage assessment of natural hazards (e.g., floods, hail, windstorms, precipitation) on properties from street view or satellite imagery. The tool should help identify where the most significant losses/damage might occur. For example, in areas with high concentration of rooftop solar panels, older and more vulnerable buildings, or other exposure characteristics that increase susceptibility to damage.   
 
 
-To get started, you will need open source weather and climate data.  
-
----
-
 ## 📊 Data Sources
 
 ### MeteoSwiss Data
 #### 1. Download Manually (No Coding Required)
 
-MeteoSwiss provides an easy interface for downloading datasets in **CSV** or **TXT** format:
-
-👉 [MeteoSwiss Data Download Portal](https://www.meteoswiss.admin.ch/services-and-publications/applications/ext/download-data-without-coding-skills.htm)
-
-From there, you can:
-- Select different meteorological parameters (temperature, precipitation, sunshine, wind, etc.)
-- Choose a station and timeframe
-- Export the data directly
-
-We’ve also added a **few sample CSVs** in this repository (`/data` folder) so you can quickly test your pipelines.
-
----
+MeteoSwiss provides an easy interface for downloading datasets from the [MeteoSwiss Data Download Portal](https://www.meteoswiss.admin.ch/services-and-publications/applications/ext/download-data-without-coding-skills.htm). You can select different meteorological parameters (temperature, precipitation, sunshine, wind, etc.), choose a station and timeframe, export the data directly. We’ve also added a **few sample CSVs** in this repository (`/data` folder) so you can quickly test your pipelines.
 
 #### 2. Access via API (Programmatic Access)
-
-For automated workflows and larger projects, you can fetch data using the **MeteoSwiss Opendata API**.
-📖 Documentation: [MeteoSwiss Opendata GitHub](https://github.com/MeteoSwiss/publication-opendata)
-
-Key features:
-- REST-like API  
-- Data available in **JSON, CSV, and XML**  
-- Includes observations, forecasts, and gridded datasets
+For automated workflows and larger projects, you can fetch data using the **MeteoSwiss Opendata API**. 📖 Documentation: [MeteoSwiss Opendata GitHub](https://github.com/MeteoSwiss/publication-opendata). Key features: REST-like API, Data available in **JSON, CSV, and XML**, includes observations, forecasts, and gridded datasets
 
 ### National data portals
 - [Open Street Map](https://www.openstreetmap.org/#map=9/47.000/8.000) with [osm](https://www.osm.ch/entwickler.html) as dataset limited to Switzerland
@@ -63,7 +41,6 @@ Key features:
 - [opendata.swiss](https://opendata.swiss/de) - Data catalog of Swiss Open Government Data, operated by the Federal Statistical Office (BFS)
 - [BFS Data Portal](https://data.bfs.admin.ch/) - Data catalog of the Federal Statistical Office (BFS)
 - [BFS STAT-TAB](https://www.pxweb.bfs.admin.ch/pxweb/en/) - Interactive database of the Federal Statistical Office (BFS)
-- [I14Y - Metadata catalog of Switzerland.](https://www.i14y.admin.ch/en/home) - The I14Y interoperability platform is Switzerland’s national data catalogue.It contains an overview of the data collections and interfaces of the Confederation, cantons and communes.
 - [BFS Registers](https://www.bfs.admin.ch/bfs/en/home/registers.html) - Official Swiss Enterprise Register, Population Register and Federal Register of Buildings and Dwellings.
 - [SBB](https://opentransportdata.swiss/en/) - Open transport data provided by SBB.
 - [Swiss Tourism Data](https://www.tourismdata.ch/) - Open portal of the National Data Infrastructure for Tourism (NaDIT)
