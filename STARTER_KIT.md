@@ -1,32 +1,41 @@
 # Welcome to the challenge on "Building-up resilience against extreme weather events in Switzerland" by Swiss Re
 This respository is part of the Zurich hackathon of [Swiss {ai} Week](https://swiss-ai-weeks.ch/) happening on 26/27 September 2025.
 
-By accessing or using the data provided, you agree to the following terms and conditions.
-## Terms and Conditions
-> The data is provided solely for the purpose of participating in the hackathon event held in Zurich, Switzerland, and for developing solutions directly related to the specific challenge you have selected. You are strictly prohibited from using the Data for any other purpose, including but not limited to:
-> - Commercial use.
-> - Research or development outside the scope of this hackathon challenge.
-> - Personal use or any other unauthorized activities.
-> 
-> The data is provided "as is" without any warranties, express or implied, including but not limited to, warranties of merchantability, fitness for a particular purpose, or non-infringement. The hackathon organizers do not guarantee the accuracy, completeness, or reliability of the data.
->
-> Immediately following the conclusion of the hackathon event, you are obligated to permanently and securely delete all copies of the data, including any derived or processed data, from all your devices, storage media, and systems. 
+## Introdution
+The recent tragedy of glacier collapse in Blatten and the increasing summer heatwaves underscore the vulnerabilities in the Swiss Alps. In this evolving risk landscape, the reinsurance industry plays a crucial role in helping societies understand and manage the financial impact of natural disasters such as landslides, floods, and heatwaves.  
 
-## Source of Data
-The data of this respository has been provided by [Swiss Re](https://www.swissre.com/)
+AI-driven technologies open up new opportunities for the (re)insurance industry to take societal responsibility in responding to natural catastrophes. With this hackathon, Swiss Re aims to explore innovative ways to turn these opportunities into concrete solutions that enhance resilience and create tangible benefits for society. 
 
-# Hackathon – Open Data Access
-Welcome to the Hackathon on **AI for Resilience against Extreme Weather Events**!  
-In this challenge, you will use **open-source weather, climate and topological data** to build AI-powered solutions that help the Swiss society become more resilient against **extreme weather events in Switzerland**.  
+This document provides an overview of Swiss Re's hack challenge and potential solution designs, risk and insurance inputs for better scoping and pointers to datasets and other resources that you can leverage.  
+
+# Hackathon Challenge 
+Welcome to the Hackathon on **AI for Resilience against Extreme Weather Events**!  The aim of this challenge is to use data and technology to enable Swiss society to build resilience to extreme weather events. You are encouraged to design any solution that contributes to this goal. The ideas below illustrate some possible directions you might pursue, yet you are just as welcome to think beyond them and propose something entirely new: 
 
 Your solutions might include:
 - **Innovative Parametric Insurance Solutions**: Design and prototype a parametric insurance model with innovative trigger mechanism based on real-time environmental data (e.g. extreme temperature index). Simulate payout scenarios based on historical or synthetically created datasets. The payout does not need to be financial - think of what would bring instant relief to society, e.g. during a heatwave! 
 - **AI-Powered Early Warning Systems**: Thinking of individuals living or travelling through Switzerland, design and prototype an AI-powered application enabling to better apprehend selected risks (e.g., landslides or glacier collapses) and issuing warnings or relevant mitigation recommendations based on the user location. The AI model should be able to leverage multimodal data ranging from weather to topological data and assume the user's location as known. 
 - **Intelligent Disaster Response Systems** Prototype a platform for real-time disaster coordination with integration of open source exposure data and optimized resource allocation in case of a disaster. Conduct damage assessment of natural hazards (e.g., floods, hail, windstorms, precipitation) on properties from street view or satellite imagery. The tool should help identify where the most significant losses/damage might occur. For example, in areas with high concentration of rooftop solar panels, older and more vulnerable buildings, or other exposure characteristics that increase susceptibility to damage.   
+- **Any other solutions**: Be creative and feel free to think and build completely out of the box!
+
+## Risk Inputs for Scoping
+Swiss communities face a wide range of natural hazards, each with different impacts on people and health, property, and agriculture.  
+
+### Hazard / Exposure mapping (risk scenarios) 
+The table below provides examples of how selected hazards can affect these areas of exposure. While not exhaustive, it illustrates the variety of risks and consequences across lines of business. To make your solution both relevant and feasible, we recommend focusing on one specific hazard-exposure intersection which represents a concrete risk scenario, for instance, floods × property damage or hail × agriculture. 
+
+| Hazards ↓ / Exposures → | People & Health                          | Property damage                                                                 | Agriculture                                |
+|--------------------------|------------------------------------------|---------------------------------------------------------------------------------|--------------------------------------------|
+| **Flood**               | Evacuation, injuries, fatalities         | Property (buildings) & infrastructure damage (Power grid, bridges, roads, railway lines) | Crop loss, forest loss                      |
+| **Windstorm**           | Injuries, fatalities                     | Property (buildings) & infrastructure damage (Power grid), road blockages from trees | Crop loss, forest loss                      |
+| **Convective storms (hail)** | Injuries, fatalities                | Property (buildings, solar panels) damage, motor damage                         | Crop loss depending on the growing season   |
+| **Earthquakes** (not climate-driven but relevant in Switzerland) | Injuries, fatalities | Property (buildings) & infrastructure damage (Power grid, bridges, roads, railway lines) | Crop loss, forest loss through indirect impacts e.g. landslides |
+| **Landslides**          | Injuries, fatalities                     | Property (buildings) & infrastructure damage (Power grid, bridges, roads, railway lines) | Crop loss, forest loss                      |
+| **Drought**             | Water shortage                           | Property & infrastructure damage from subsidence depending on the soil conditions | Crop loss, forest dieback                   |
+| **Heat wave**           | Health issues                            | Power grid failures, potentially affecting other infrastructures                | Crop loss, forest dieback                   |
 
 
 ## 📊 Data Sources
-
+In this challenge, you will use **open-source weather, climate and topological data** to build AI-powered solutions that help the Swiss society become more resilient against **extreme weather events in Switzerland**.  
 ### Hazard Data
 #### MeteoSwiss: 1. Download Manually (No Coding Required)
 
@@ -69,3 +78,18 @@ TODO: Link, Access
 - [Zürich](https://www.zh.ch/de/politik-staat/opendata.zhweb-noredirect.zhweb-cache.html#/)
 - [Zürich ](https://www.zh.ch/de/politik-staat/gemeinden/gemeindeportraet.html) – Web application providing a comprehensive set of indicators which can be exported to various formats.
 
+---
+By accessing or using the data provided, you agree to the following terms and conditions.
+
+## Terms and Conditions
+> The data is provided solely for the purpose of participating in the hackathon event held in Zurich, Switzerland, and for developing solutions directly related to the specific challenge you have selected. You are strictly prohibited from using the Data for any other purpose, including but not limited to:
+> - Commercial use.
+> - Research or development outside the scope of this hackathon challenge.
+> - Personal use or any other unauthorized activities.
+> 
+> The data is provided "as is" without any warranties, express or implied, including but not limited to, warranties of merchantability, fitness for a particular purpose, or non-infringement. The hackathon organizers do not guarantee the accuracy, completeness, or reliability of the data.
+>
+> Immediately following the conclusion of the hackathon event, you are obligated to permanently and securely delete all copies of the data, including any derived or processed data, from all your devices, storage media, and systems. 
+
+## Source of Data
+The data of this respository has been provided by [Swiss Re](https://www.swissre.com/)
